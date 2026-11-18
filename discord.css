@@ -1,0 +1,83 @@
+/**
+ * @name WallustConfig
+ * @description Configures many parts of Discord, to be used with Wallust.
+ * @author Arch
+ * @version 1.0.0
+ * @authorId 831546721913929778
+ * @source https://github.com/QEStudios/DiscordVerticalTheme
+ * @updateUrl https://raw.githubusercontent.com/QEStudios/DiscordVerticalTheme/refs/heads/main/DiscordVerticalTheme.theme.css
+ */
+
+.theme-dark {
+    --background-base-lowest: {{background}};
+    --background-base-lower: {{background | lighten(0.05)}};
+    --background-base-low: {{background | lighten(0.1)}};
+    --background-surface-high: {{background | lighten(0.15)}};
+    --chat-background-default: {{background | lighten(0.1)}};
+
+    --channels-default: {{foreground | darken(0.3)}};
+    --text-default: {{foreground | lighten(0.65)}};
+
+    --control-primary-background-default: {{foreground}};
+    --control-primary-background-hover: {{foreground | darken(0.4)}};
+
+    --control-primary-text-default: {{foreground | lighten(0.5)}};
+    //--white: {{foreground | darken(0.8)}};
+    --white: {{foreground | lighten(0.5)}};
+
+    --reaction-text-reacted-default: {{foreground}};
+
+    --text-link: {{foreground}};
+
+    --brand-500: {{foreground | darken(0.6)}};
+    --brand-560: {{foreground | lighten(0.8)}};
+    --brand-530: {{foreground | darken(0.3)}};
+
+    --mention-foreground: {{foreground | lighten(0.5)}};
+    --mention-background: {{foreground | darken(0.75)}};
+
+    --background-brand: {{foreground | darken(0.35)}};
+
+    --background-feedback-notification: {{foreground | darken(0.65)}};
+    --text-overlay-light: {{foreground}};
+
+    --message-mentioned-background-default: {{foreground | darken(0.85)}};
+    --message-mentioned-background-hover: {{foreground | darken(0.95)}};
+
+    --reaction-background-reacted-default: {{foreground | darken(0.75)}};
+    --reaction-border-reacted-default: {{foreground}};
+    --control-brand-foreground: {{foreground}};
+    --polls-voted-fill: {{foreground | darken(0.75)}};
+
+    --text-feedback-positive: {{foreground}};
+    --icon-feedback-positive: {{foreground}};
+    --background-feedback-positive: {{foreground | darken(0.85)}};
+    --status-positive: {{foreground}};
+    --text-brand: {{foreground}};
+
+    --radio-background-selected-default: {{foreground}};
+    --radio-background-selected-hover: {{foreground | darken(0.3)}};
+    --radio-thumb-background-active: {{foreground | darken(0.85)}};
+
+    --control-connected-background-default: {{background}};
+    --control-connected-background-hover: {{background | lighten(0.1)}};
+    --control-connected-text-default: {{foreground}};
+    --control-connected-text-hover: {{foreground}};
+    --control-primary-background-active: {{foreground | darken(0.75)}};
+
+    --green-360: {{foreground}};
+}
+path[d^="M5.52995"],path[fill="#798df9"] {
+    fill: {{foreground}};
+}
+path[d^="m2.4"] {
+    fill: {{foreground}};
+}
+
+.durationTimeDisplay_cf09d8 {
+    color: {{foreground}};
+}
+
+.mentioned__5126c:before {
+    background-color: {{foreground}};
+}
